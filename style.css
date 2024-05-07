@@ -1,0 +1,33 @@
+ul {
+    background:blueviolet;
+    text-align: center;
+}
+ul li {
+    display: inline-block;
+    position: relative;
+}
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color:chartreuse;
+    text-align: center;
+}
+ul li ul.dropdown li {
+    display: block;
+}
+ul li ul.dropdown {
+    width: 100%;
+    background:blue;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover {
+    background:brown;
+}
+ul li:hover ul.dropdown {
+    display: block;
+}
+.nav_img{
+    text-align:center;
+}
